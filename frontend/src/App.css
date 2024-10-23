@@ -1,0 +1,76 @@
+#root {
+  background-color: aliceblue;
+  background-image: linear-gradient(to right, #e0e0e0 1px, transparent 1px), linear-gradient(to bottom, #e0e0e0 1px, transparent 1px);
+  background-size: 20px 20px;
+}
+
+.pageTitle {
+  font-size: 2.5rem;
+}
+
+div.quickSearch {
+  display: grid;
+  justify-content: end;
+  padding: 30px;
+}
+
+div.entireCard {
+  /* padding-top: 5vh; */
+  width: 40%;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  min-width: 200px;
+}
+div.card-title.h5 {
+  font-family: monospace;
+}
+
+button.quickLookerSubmitBtn {
+  background: linear-gradient(115deg, #a0d1ff, #0d6abf);
+}
+
+button.btn.btn-primary {
+  background: linear-gradient(115deg, #004ff9, #000000);
+}
+
+h1 {
+  color: antiquewhite;
+  font-family: monospace;
+  background: linear-gradient(115deg, #0923a5, #a5f7c0);
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+
+input {
+  background-color: transparent;
+  height: 100%;
+  font-size: 1.25rem;
+  width: 100%;
+  margin-left: 5px;
+}
+
+input:focus {
+  outline: none;
+}
+
+div.container {
+  margin: 30px;
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+
+
+@keyframes logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  a:nth-of-type(2) .logo {
+    animation: logo-spin infinite 20s linear;
+  }
+}
